@@ -21,6 +21,7 @@ itemPrices.put('D', 15);
 		  try {
 	        @SuppressWarnings("resource")
 			Scanner scanner = new Scanner(System.in);
+	        System.out.println("Enter the item");
 	        Map<Character, Integer> cart = new HashMap<>();
 
 	        while (true) {
